@@ -1,0 +1,50 @@
+body {
+    max-width: 2000px;
+}
+
+.container-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    margin: 40px 30px;
+    height: 60px;
+    width: 20%;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color:rgb(236, 229, 142);
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+    margin: 0 auto
+}
+
+.estilo {
+    background-color: rgb(238, 69, 69);
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+:root {
+    --backgroundColor: yellow;
+}
+
+.estilo:hover {
+    background-color: var(--backgroundColor);
+}
+
+
+ 
+
+ 
